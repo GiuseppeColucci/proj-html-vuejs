@@ -1,0 +1,13 @@
+@mixin body-margin {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@mixin contaienr-senter{
+    width: 1200px;
+    margin: auto;
+}
+
+//backgraun image
+
+$backGraundHeader:"../images/1-hero-image.png";

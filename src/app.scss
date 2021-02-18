@@ -1,0 +1,33 @@
+//colelgamento degli altri file
+@import"colors";
+@import"variables";
+*{
+   @include body-margin;
+}
+.container{
+    background-image: url($backGraundHeader);
+    background-color: orange;
+    &-margin-center{
+        @include contaienr-senter;
+        border: 1px solid black;
+        height: 100px;
+       .container-nav{
+           margin-top: 20px;
+           display: flex;
+           justify-content: space-between;
+           .container-logo{
+
+           }
+           .container-link{
+               ul{
+                   display: flex;
+                   list-style: none;
+                   margin: 0 15px;
+                   li{
+                       margin: 0 5px;
+                   }
+               }
+           }
+       }
+    }
+}
