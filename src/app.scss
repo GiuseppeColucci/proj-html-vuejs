@@ -1,41 +1,65 @@
 //colelgamento degli altri file
 @import"colors";
 @import"variables";
+//color
 *{
    @include body-margin;
 }
 .container{
     background-image: url($backGraundHeader);
-    background-color: orange;
+    background-size: 100%;
     &-margin-center{
         @include contaienr-senter;
-        border: 1px solid black;
-        height: 100px;
+      
        .container-nav{
-           margin-top: 20px;
+            padding-top: 20px;
            display: flex;
            justify-content: space-between;
            .container-logo{
 
            }
            .container-link{
+               display: flex;
+               align-items: center;
                ul{
+                   cursor: pointer;
+                   color: white;
                    display: flex;
                    list-style: none;
                    margin: 0 15px;
                    li{
-                       margin: 0 5px;
+                       margin: 0 20px;
+                       p:hover{
+                           color: $Orange;
+                       }
+                   }
+                   button{
+                    @include buttonOrange;
                    }
                }
            }
        }
     }
     .container-header{
-        height: 100px;
-        background-color: chartreuse;
+        padding: 200px 0;
         .container-box{
             width: 35%;
-            background-color: chocolate;
+            color: white;
+                h1{
+                   
+                }
+                p{
+                    margin: 20px 0
+                }
+            .box-button{
+                margin: 30px 0;
+                .one{
+                    @include buttonOrange;
+                }
+                .two{
+                    @include buttonPurpol;
+                }
+            }
         }
     }
 }

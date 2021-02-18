@@ -6,32 +6,68 @@
 
 .container {
   background-image: url("../images/1-hero-image.png");
-  background-color: orange;
+  background-size: 100%;
 }
 .container-margin-center {
   width: 1200px;
   margin: auto;
-  border: 1px solid black;
-  height: 100px;
 }
 .container-margin-center .container-nav {
-  margin-top: 20px;
+  padding-top: 20px;
   display: flex;
   justify-content: space-between;
 }
+.container-margin-center .container-nav .container-link {
+  display: flex;
+  align-items: center;
+}
 .container-margin-center .container-nav .container-link ul {
+  cursor: pointer;
+  color: white;
   display: flex;
   list-style: none;
   margin: 0 15px;
 }
 .container-margin-center .container-nav .container-link ul li {
-  margin: 0 5px;
+  margin: 0 20px;
+}
+.container-margin-center .container-nav .container-link ul li p:hover {
+  color: #ffa837;
+}
+.container-margin-center .container-nav .container-link ul button {
+  background-color: #ffa837;
+  border: 0;
+  color: white;
+  border-radius: 10px;
+  padding: 5px 10px;
+  cursor: pointer;
 }
 .container .container-header {
-  height: 100px;
-  background-color: chartreuse;
+  padding: 200px 0;
 }
 .container .container-header .container-box {
   width: 35%;
-  background-color: chocolate;
+  color: white;
+}
+.container .container-header .container-box p {
+  margin: 20px 0;
+}
+.container .container-header .container-box .box-button {
+  margin: 30px 0;
+}
+.container .container-header .container-box .box-button .one {
+  background-color: #ffa837;
+  border: 0;
+  color: white;
+  border-radius: 10px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.container .container-header .container-box .box-button .two {
+  background-color: #5926c0;
+  border: 0;
+  color: white;
+  border-radius: 10px;
+  padding: 5px 10px;
+  cursor: pointer;
 }

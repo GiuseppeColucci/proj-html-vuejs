@@ -17,21 +17,12 @@
             <div class="container-margin-center">
                 <div class="container-nav">
                    <div class="container-logo">
-                       <img src="" alt="">
-                       LOGO
+                       <img src="./images/logo_seo_w_1x.png" alt="">
+                       
                    </div>
                    <div class="container-link">
                        <ul>
-                        <i class="fas fa-video"></i>
-                        <i class="fas fa-road"></i>
-                        <i class="fas fa-tint"></i>
-                           <li>asddsfds</li>
-                           <li>asddsfds</li>
-                           <li>asddsfds</li>
-                           <li>asddsfds</li>
-                           <li>asddsfds</li>
-                           <li>asddsfds</li>
-                           <li>asddsfds</li>
+                           <li v-for='element in linkNav'><p>{{element}}</p></li>
                            <button>GET IN TOUCH NOW</button>
                        </ul>
                    </div>
@@ -41,8 +32,8 @@
                         <h1>SEM Campaigns Made Simple With Avada</h1>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique labore illo molestiae animi dignissimos vitae dolore ipsum,</p>
                         <div class="box-button">
-                            <button>BUY AVADA NOW</button>
-                            <button>CONTACT US</button>
+                            <button class="one">BUY AVADA NOW</button>
+                            <button class= "two">CONTACT US</button>
 
                         </div>
                     </div>

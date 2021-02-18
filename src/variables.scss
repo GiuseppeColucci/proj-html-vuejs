@@ -11,3 +11,21 @@
 //backgraun image
 
 $backGraundHeader:"../images/1-hero-image.png";
+
+//button
+@mixin buttonOrange{
+    background-color: #ffa837;
+    border: 0;
+    color: white;
+    border-radius: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+@mixin buttonPurpol{
+    background-color: #5926c0;
+    border: 0;
+    color: white;
+    border-radius: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
