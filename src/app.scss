@@ -30,4 +30,12 @@
            }
        }
     }
+    .container-header{
+        height: 100px;
+        background-color: chartreuse;
+        .container-box{
+            width: 35%;
+            background-color: chocolate;
+        }
+    }
 }

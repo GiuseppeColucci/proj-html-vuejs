@@ -27,3 +27,11 @@
 .container-margin-center .container-nav .container-link ul li {
   margin: 0 5px;
 }
+.container .container-header {
+  height: 100px;
+  background-color: chartreuse;
+}
+.container .container-header .container-box {
+  width: 35%;
+  background-color: chocolate;
+}
