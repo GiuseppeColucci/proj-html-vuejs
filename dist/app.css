@@ -5,8 +5,10 @@
 }
 
 .container {
+  min-width: 1200px;
   background-image: url("../images/1-hero-image.png");
-  background-size: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .container-margin-center {
   width: 1200px;
@@ -43,7 +45,9 @@
   cursor: pointer;
 }
 .container .container-header {
-  padding: 200px 0;
+  height: 739px;
+  display: flex;
+  align-items: center;
 }
 .container .container-header .container-box {
   width: 35%;
@@ -62,6 +66,7 @@
   border-radius: 10px;
   padding: 5px 10px;
   cursor: pointer;
+  margin-right: 15px;
 }
 .container .container-header .container-box .box-button .two {
   background-color: #5926c0;
@@ -70,4 +75,38 @@
   border-radius: 10px;
   padding: 5px 10px;
   cursor: pointer;
+}
+
+.containere-main-box {
+  height: 700px;
+  background-color: #f8f8f8;
+}
+.containere-main-box .main-box-center {
+  width: 1200px;
+  margin: auto;
+  background-color: orchid;
+}
+.containere-main-box .main-box-center .main-box-one {
+  display: flex;
+  justify-content: center;
+}
+.containere-main-box .main-box-center .main-box-one .box-text-center-main {
+  width: 43%;
+  text-align: center;
+  padding-top: 100px;
+}
+.containere-main-box .main-box-center .main-box-one .box-text-center-main h1 {
+  margin-bottom: 25px;
+}
+.containere-main-box .main-box-center .main-box-two {
+  display: flex;
+  justify-content: center;
+  margin: 35px;
+  padding: 35px;
+}
+.containere-main-box .main-box-center .main-box-two .main-mini-box {
+  height: 300px;
+  width: 300px;
+  background-color: white;
+  margin: 0 25px;
 }

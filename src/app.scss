@@ -6,15 +6,17 @@
    @include body-margin;
 }
 .container{
+    min-width: 1200px;
     background-image: url($backGraundHeader);
-    background-size: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
     &-margin-center{
-        @include contaienr-senter;
+        @include container-center;
       
        .container-nav{
             padding-top: 20px;
-           display: flex;
-           justify-content: space-between;
+            display: flex;
+            justify-content: space-between;
            .container-logo{
 
            }
@@ -23,14 +25,14 @@
                align-items: center;
                ul{
                    cursor: pointer;
-                   color: white;
+                   color: $ColorTextW;
                    display: flex;
                    list-style: none;
                    margin: 0 15px;
                    li{
                        margin: 0 20px;
                        p:hover{
-                           color: $Orange;
+                           color: $HoverOrange;
                        }
                    }
                    button{
@@ -41,10 +43,12 @@
        }
     }
     .container-header{
-        padding: 200px 0;
+        height: 739px;
+        display: flex;
+        align-items: center;
         .container-box{
             width: 35%;
-            color: white;
+            color: $ColorTextW;
                 h1{
                    
                 }
@@ -55,10 +59,47 @@
                 margin: 30px 0;
                 .one{
                     @include buttonOrange;
+                    margin-right: 15px;
+
                 }
                 .two{
                     @include buttonPurpol;
                 }
+            }
+        }
+    }
+}
+.containere-main-box{
+    height: 700px;
+    background-color: $Back-G-main-Color;
+    .main-box-center{
+        @include container-center;
+        background-color: orchid;
+        .main-box-one{
+            display: flex;
+            justify-content: center;
+            .box-text-center-main{
+                width: 43%;
+                text-align: center;
+                padding-top: 100px;
+                h1{
+                    margin-bottom: 25px;
+                }
+                p{
+
+                }
+            }
+        }
+        .main-box-two{
+            display: flex;
+            justify-content: center;
+            margin: 35px;
+            padding: 35px;
+            .main-mini-box{
+                height: 300px;
+                width: 300px;
+                background-color:$ColorTextW;
+                margin: 0 25px
             }
         }
     }

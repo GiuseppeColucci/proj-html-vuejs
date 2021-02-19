@@ -13,37 +13,63 @@
 </head>
 <body>
     <div id="app">
-        <div class="container">
-            <div class="container-margin-center">
-                <div class="container-nav">
-                   <div class="container-logo">
-                       <img src="./images/logo_seo_w_1x.png" alt="">
-                       
-                   </div>
-                   <div class="container-link">
-                       <ul>
-                           <li v-for='element in linkNav'><p>{{element}}</p></li>
-                           <button>GET IN TOUCH NOW</button>
-                       </ul>
-                   </div>
-                </div>
-                <div class="container-header">
-                    <div class="container-box">
-                        <h1>SEM Campaigns Made Simple With Avada</h1>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique labore illo molestiae animi dignissimos vitae dolore ipsum,</p>
-                        <div class="box-button">
-                            <button class="one">BUY AVADA NOW</button>
-                            <button class= "two">CONTACT US</button>
+        
 
+            <div class="container">
+                <div class="container-margin-center">
+                    <div class="container-nav">
+                       <div class="container-logo">
+                           <img :src="'./images/'+iconLogoNav+'.png'" alt="">
+                           
+                       </div>
+                       <div class="container-link">
+                           <ul>
+                               <li v-for='element in linkNav'><p>{{element}}</p></li>
+                               <button>GET IN TOUCH NOW</button>
+                           </ul>
+                       </div>
+                    </div>
+                    <div class="container-header">
+                        <div class="container-box">
+                            <h1>SEM Campaigns Made Simple With Avada</h1>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique labore illo molestiae animi dignissimos vitae dolore ipsum,</p>
+                            <div class="box-button">
+                                <button class="one">BUY AVADA NOW</button>
+                                <button class= "two">CONTACT US</button>
+    
+                            </div>
                         </div>
+    
+                    </div>
+    
+                </div>
+    
+            </div>
+        
+        <main>
+            <div class="containere-main-box">
+                <div class="main-box-center">
+                    <div class="main-box-one">
+                        <div class="box-text-center-main">
+                            <h1>Meet The New Agency SEO Template From The Avada Team</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis at impedit ipsa dolor accusamus!</p>
+                        </div>
+                    </div>
+                    <div class="main-box-two">
+                        <div v-for="element in mainMiniBox"class="main-mini-box">
+                            <i :class="'fas fa-'+{{element.icon}}"></i>
+                            <h1>{{element.title}}</h1>
+                            <p>{{element.text}}</p>
+                        </div>
+
                     </div>
 
                 </div>
 
             </div>
+        </main>
 
-        </div>
-
+<!-- fine del contenitore di vue -->
     </div>
     
 
