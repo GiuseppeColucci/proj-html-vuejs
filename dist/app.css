@@ -158,7 +158,46 @@
 }
 .container-main-box-two .main-box-center-2 .main-card h1, .container-main-box-two .main-box-center-2 .main-card p {
   color: white;
+  margin-bottom: 25px;
 }
 .container-main-box-two .main-box-center-2 .main-card i, .container-main-box-two .main-box-center-2 .main-card a {
   color: #ffa837;
+  margin: 37px;
+}
+
+.main-box-center-3 .main-box-center {
+  width: 1200px;
+  margin: auto;
+  padding-bottom: 100px;
+}
+.main-box-center-3 .main-box-center .main-box-text {
+  display: flex;
+  justify-content: center;
+}
+.main-box-center-3 .main-box-center .main-box-text .text {
+  text-align: center;
+  width: 41%;
+  padding: 50px;
+}
+.main-box-center-3 .main-box-center .main-box-slide-img .slide-main-one {
+  display: flex;
+  justify-content: center;
+}
+.main-box-center-3 .main-box-center .main-box-slide-img .slide-main-one .slide-box {
+  height: 400px;
+  width: 400px;
+  background-color: olivedrab;
+  border: 1px solid black;
+  margin: 5px 5px;
+}
+.main-box-center-3 .main-box-center .main-box-slide-img .slide-main-two {
+  display: flex;
+  justify-content: center;
+}
+.main-box-center-3 .main-box-center .main-box-slide-img .slide-main-two .slide-box {
+  height: 400px;
+  width: 400px;
+  background-color: olivedrab;
+  border: 1px solid black;
+  margin: 5px 5px;
 }

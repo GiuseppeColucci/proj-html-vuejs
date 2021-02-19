@@ -129,8 +129,6 @@
     background-size: cover;
     .main-box-center{
         @include container-center;
-        
-       
         display: flex;
         justify-content: center;
         .box-text-center-main-two{
@@ -155,10 +153,50 @@
             margin-bottom: 150px;
             h1,p{
                 color: white;
-                
+                margin-bottom: 25px;
             }
             i,a{
                 color: $HoverOrange;
+                margin: 37px;
+            }
+        }
+    }
+}
+.main-box-center-3{
+    .main-box-center{
+        @include container-center;
+        padding-bottom: 100px;
+        .main-box-text{
+            display: flex;
+            justify-content: center;
+            .text{
+                text-align: center;
+                width: 41%;
+                padding: 50px;
+            }
+        }
+        .main-box-slide-img{
+            .slide-main-one{
+                display: flex;
+                justify-content: center;
+                .slide-box{
+                    height: 400px;
+                    width: 400px;   
+                    background-color: olivedrab;
+                    border: 1px solid black;
+                    margin: 5px 5px;
+                }
+            }
+            .slide-main-two{
+                display: flex;
+                justify-content: center;
+                .slide-box{
+                    height: 400px;
+                    width: 400px;
+                    background-color: olivedrab;
+                    border: 1px solid black;
+                    margin: 5px 5px;
+                }
             }
         }
     }
