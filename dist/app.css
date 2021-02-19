@@ -77,31 +77,31 @@
   cursor: pointer;
 }
 
-.containere-main-box {
+.containere-main-box-one {
   background-color: #f8f8f8;
 }
-.containere-main-box .main-box-center {
+.containere-main-box-one .main-box-center {
   width: 1200px;
   margin: auto;
 }
-.containere-main-box .main-box-center .main-box-one {
+.containere-main-box-one .main-box-center .main-box-one {
   display: flex;
   justify-content: center;
 }
-.containere-main-box .main-box-center .main-box-one .box-text-center-main {
+.containere-main-box-one .main-box-center .main-box-one .box-text-center-main {
   width: 43%;
   text-align: center;
   padding-top: 100px;
 }
-.containere-main-box .main-box-center .main-box-one .box-text-center-main h1 {
+.containere-main-box-one .main-box-center .main-box-one .box-text-center-main h1 {
   margin-bottom: 25px;
 }
-.containere-main-box .main-box-center .main-box-two {
+.containere-main-box-one .main-box-center .main-box-two {
   display: flex;
   margin: 35px;
   padding: 35px;
 }
-.containere-main-box .main-box-center .main-box-two .main-mini-box {
+.containere-main-box-one .main-box-center .main-box-two .main-mini-box {
   height: 300px;
   width: 300px;
   background-color: white;
@@ -111,14 +111,44 @@
   align-items: center;
   text-align: center;
 }
-.containere-main-box .main-box-center .main-box-two .main-mini-box i {
+.containere-main-box-one .main-box-center .main-box-two .main-mini-box i {
   font-size: 20px;
   color: #ffa837;
 }
-.containere-main-box .main-box-center .main-box-two .main-mini-box h1 {
+.containere-main-box-one .main-box-center .main-box-two .main-mini-box h1 {
   margin: 18px;
 }
-.containere-main-box .main-box-center .main-box-three {
+.containere-main-box-one .main-box-center .main-box-three {
   height: 500px;
   background-image: url("../images/agency-seo-desk-front-1200x570.jpg");
+}
+
+.container-main-box-two {
+  background-color: orangered;
+}
+.container-main-box-two .main-box-center {
+  width: 1200px;
+  margin: auto;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+}
+.container-main-box-two .main-box-center .box-text-center-main-two {
+  width: 53%;
+  text-align: center;
+  padding: 60px;
+}
+.container-main-box-two .main-box-center-2 {
+  background-color: chartreuse;
+  height: 300px;
+  width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+.container-main-box-two .main-box-center-2 .main-card {
+  width: 180px;
+  height: 270px;
+  background-color: yellow;
+  margin: 0 17px;
 }

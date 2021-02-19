@@ -69,7 +69,7 @@
         }
     }
 }
-.containere-main-box{
+.containere-main-box-one{
     background-color: $Back-G-main-Color;
     .main-box-center{
         @include container-center;
@@ -121,5 +121,33 @@
           
         }
        
+    }
+}
+.container-main-box-two{
+    background-color: orangered;
+    .main-box-center{
+        @include container-center;
+        
+        background-color: blue;
+        display: flex;
+        justify-content: center;
+        .box-text-center-main-two{
+            width: 53%;
+            text-align: center;
+            padding: 60px;           
+        }
+    }
+    .main-box-center-2{
+        background-color: chartreuse;
+        height: 300px;
+        @include container-center;
+        display: flex;
+        justify-content: center;
+        .main-card{
+            width: 180px;
+            height: 270px;
+            background-color: yellow;
+            margin: 0 17px;
+        }
     }
 }
