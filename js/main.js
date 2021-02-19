@@ -51,6 +51,19 @@ new Vue({
                 title:'SEO Analysis',
                 text:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque porro voluptatibus non! Quisquam quas libero doloribus laudantium vitae iure? Labore consequatur animi dolorum excepturi corrupti ratione hic quasi, aut quo.',
             },
+        ],
+        sliderOne:[
+            {images:'case-study-gallery-3-1-600x450'},
+            {images:'case-study-gallery-2-600x450'},
+            {images:'case-study-gallery-1-1-600x450'},
+
+        ],
+        sliderTwo:[
+            {images:'case-study-gallery-4-1-600x450'},
+            {images:'case-study-gallery-5-1-600x450'},
+            {images:'case-study-gallery-6-1-600x450'},
+
+
         ]
     },
 })//fine vue

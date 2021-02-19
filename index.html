@@ -100,26 +100,26 @@
                     </div>
                     <div class="main-box-slide-img">
                         <div class="slide-main-one">
-                            <div class="slide-box">
-
-                            </div>
-                            <div class="slide-box">
-                                
-                            </div>
-                            <div class="slide-box">
-                                
+                            <div v-for='img in sliderOne'class="slide-box">
+                                <img :src="'./images/'+img.images+'.jpg'" alt="">
                             </div>
                         </div>
                         <div class="slide-main-two">
-                            <div class="slide-box">
+                            <div v-for='img in sliderTwo'class="slide-box">
+                                <img :src="'./images/'+img.images+'.jpg'" alt="">
 
+                              
                             </div>
-                            <div class="slide-box">
+                            <!-- <div class="slide-box">
+                                <img src="./images/case-study-gallery-5-1-600x450.jpg" alt="">
+
                                 
                             </div>
                             <div class="slide-box">
-                                
-                            </div>
+                                <img src="./images/case-study-gallery-6-1-600x450.jpg" alt="">
+
+                            
+                            </div> -->
                         </div>
 
                     </div>

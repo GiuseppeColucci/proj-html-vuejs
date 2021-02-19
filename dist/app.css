@@ -190,6 +190,10 @@
   border: 1px solid black;
   margin: 5px 5px;
 }
+.main-box-center-3 .main-box-center .main-box-slide-img .slide-main-one .slide-box img {
+  height: 100%;
+  width: 100%;
+}
 .main-box-center-3 .main-box-center .main-box-slide-img .slide-main-two {
   display: flex;
   justify-content: center;
@@ -200,4 +204,8 @@
   background-color: olivedrab;
   border: 1px solid black;
   margin: 5px 5px;
+}
+.main-box-center-3 .main-box-center .main-box-slide-img .slide-main-two .slide-box img {
+  height: 100%;
+  width: 100%;
 }
