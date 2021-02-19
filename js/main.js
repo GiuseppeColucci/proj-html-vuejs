@@ -15,7 +15,7 @@ new Vue({
         ],
         mainMiniBox:[
             {
-                icon:'road',
+                icon:'fas fa-road',
                 title:'Establish Goals',
                 text:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis at impedit ipsa dolor accusamus!',
             },

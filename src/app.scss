@@ -70,11 +70,9 @@
     }
 }
 .containere-main-box{
-    height: 700px;
     background-color: $Back-G-main-Color;
     .main-box-center{
         @include container-center;
-        background-color: orchid;
         .main-box-one{
             display: flex;
             justify-content: center;
@@ -92,15 +90,36 @@
         }
         .main-box-two{
             display: flex;
-            justify-content: center;
             margin: 35px;
             padding: 35px;
             .main-mini-box{
                 height: 300px;
                 width: 300px;
                 background-color:$ColorTextW;
-                margin: 0 25px
+                margin: 0 25px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                i{
+                    font-size: 20px;
+                    color: $HoverOrange;
+                }
+                h1{
+                    margin: 18px;
+                }
+                p{
+
+                }
             }
+        
         }
+        .main-box-three{
+            height: 500px;
+            background-image: url($backGraund-Main-box);
+            
+          
+        }
+       
     }
 }

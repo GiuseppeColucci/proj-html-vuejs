@@ -78,13 +78,11 @@
 }
 
 .containere-main-box {
-  height: 700px;
   background-color: #f8f8f8;
 }
 .containere-main-box .main-box-center {
   width: 1200px;
   margin: auto;
-  background-color: orchid;
 }
 .containere-main-box .main-box-center .main-box-one {
   display: flex;
@@ -100,7 +98,6 @@
 }
 .containere-main-box .main-box-center .main-box-two {
   display: flex;
-  justify-content: center;
   margin: 35px;
   padding: 35px;
 }
@@ -109,4 +106,19 @@
   width: 300px;
   background-color: white;
   margin: 0 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.containere-main-box .main-box-center .main-box-two .main-mini-box i {
+  font-size: 20px;
+  color: #ffa837;
+}
+.containere-main-box .main-box-center .main-box-two .main-mini-box h1 {
+  margin: 18px;
+}
+.containere-main-box .main-box-center .main-box-three {
+  height: 500px;
+  background-image: url("../images/agency-seo-desk-front-1200x570.jpg");
 }
