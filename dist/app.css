@@ -124,31 +124,41 @@
 }
 
 .container-main-box-two {
-  background-color: orangered;
+  background-color: #051745;
+  background-image: url("../images/pattern_background.png");
+  background-size: cover;
 }
 .container-main-box-two .main-box-center {
   width: 1200px;
   margin: auto;
-  background-color: blue;
   display: flex;
   justify-content: center;
 }
 .container-main-box-two .main-box-center .box-text-center-main-two {
+  color: white;
   width: 53%;
   text-align: center;
   padding: 60px;
 }
 .container-main-box-two .main-box-center-2 {
-  background-color: chartreuse;
-  height: 300px;
   width: 1200px;
   margin: auto;
   display: flex;
   justify-content: center;
+  align-items: center;
+  padding: 25px;
 }
 .container-main-box-two .main-box-center-2 .main-card {
-  width: 180px;
-  height: 270px;
-  background-color: yellow;
+  width: 250px;
+  background-color: #1a236c;
   margin: 0 17px;
+  text-align: center;
+  padding: 15px;
+  margin-bottom: 150px;
+}
+.container-main-box-two .main-box-center-2 .main-card h1, .container-main-box-two .main-box-center-2 .main-card p {
+  color: white;
+}
+.container-main-box-two .main-box-center-2 .main-card i, .container-main-box-two .main-box-center-2 .main-card a {
+  color: #ffa837;
 }

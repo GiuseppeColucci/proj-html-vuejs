@@ -124,30 +124,42 @@
     }
 }
 .container-main-box-two{
-    background-color: orangered;
+    background-color: #051745;
+    background-image: url($elementMainBKG);
+    background-size: cover;
     .main-box-center{
         @include container-center;
         
-        background-color: blue;
+       
         display: flex;
         justify-content: center;
         .box-text-center-main-two{
+            color: white;
             width: 53%;
             text-align: center;
             padding: 60px;           
         }
     }
     .main-box-center-2{
-        background-color: chartreuse;
-        height: 300px;
         @include container-center;
         display: flex;
         justify-content: center;
+        align-items: center;
+        padding: 25px;
         .main-card{
-            width: 180px;
-            height: 270px;
-            background-color: yellow;
+            width: 250px;
+           background-color: #1a236c;
             margin: 0 17px;
+            text-align: center;
+            padding: 15px;
+            margin-bottom: 150px;
+            h1,p{
+                color: white;
+                
+            }
+            i,a{
+                color: $HoverOrange;
+            }
         }
     }
 }

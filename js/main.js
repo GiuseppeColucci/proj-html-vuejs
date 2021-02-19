@@ -29,6 +29,28 @@ new Vue({
                 title:'Get Result',
                 text:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis at impedit ipsa dolor accusamus!',
             }
+        ],
+        mainBoxCar2:[
+            {
+                icon:'fas fa-road',
+                title:'Google SEO',
+                text:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque porro voluptatibus non! Quisquam quas libero doloribus laudantium vitae iure? Labore consequatur animi dolorum excepturi corrupti ratione hic quasi, aut quo.',
+            },
+            {
+                icon:'fas fa-video',
+                title:'Brand Strategy',
+                text:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque porro voluptatibus non! Quisquam quas libero doloribus laudantium vitae iure? Labore consequatur animi dolorum excepturi corrupti ratione hic quasi, aut quo.',
+            },
+            {
+                icon:'fas fa-tint',
+                title:'Local SEO',
+                text:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque porro voluptatibus non! Quisquam quas libero doloribus laudantium vitae iure? Labore consequatur animi dolorum excepturi corrupti ratione hic quasi, aut quo.',
+            },
+            {
+                icon:'fas fa-video',
+                title:'SEO Analysis',
+                text:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque porro voluptatibus non! Quisquam quas libero doloribus laudantium vitae iure? Labore consequatur animi dolorum excepturi corrupti ratione hic quasi, aut quo.',
+            },
         ]
     },
 })//fine vue
