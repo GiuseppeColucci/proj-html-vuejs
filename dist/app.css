@@ -378,3 +378,36 @@
   height: 100%;
   width: 100%;
 }
+
+.main-box-center-7 {
+  display: flex;
+  height: 500px;
+  background-image: url("../images/CTA-seo-1.jpg");
+  background-size: cover;
+  opacity: 0, 5;
+}
+.main-box-center-7 .main-box-center {
+  width: 1200px;
+  margin: auto;
+}
+.main-box-center-7 .main-box-center .main-box-text {
+  display: flex;
+  justify-content: center;
+}
+.main-box-center-7 .main-box-center .main-box-text .text {
+  text-align: center;
+  width: 42%;
+  padding: 50px;
+  color: white;
+}
+.main-box-center-7 .main-box-center .main-box-text p {
+  margin: 40px;
+}
+.main-box-center-7 .main-box-center .main-box-text button {
+  background-color: #ffa837;
+  border: 0;
+  color: white;
+  border-radius: 10px;
+  padding: 5px 10px;
+  cursor: pointer;
+}

@@ -361,3 +361,34 @@
         }
     }
 }
+.main-box-center-7{
+    display: flex;
+    height: 500px;
+    background-image: url($bkgimg);
+    background-size: cover;
+    opacity: 0,5;
+
+    .main-box-center{
+        @include container-center;
+        .main-box-text{
+            display: flex;
+            justify-content: center;
+           
+            .text{
+                text-align: center;
+                width: 42%;
+                padding: 50px;
+                color: white;
+            }
+            h1{
+    
+            }
+            p{
+                margin: 40px;
+            }
+            button{
+                @include buttonOrange;
+            }
+        }
+    }
+}
