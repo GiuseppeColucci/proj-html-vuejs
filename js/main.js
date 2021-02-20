@@ -5,6 +5,7 @@ new Vue({
     data:{
         iconLogoNav:'logo_seo_w_1x',
         imgTestimonial:'testimonials-2',
+        iconLogoFooter:'logo_seo_1x',
         linkNav:[
             'Home',
             'Who We Are',
@@ -13,6 +14,36 @@ new Vue({
             'Careers',
             'APPLY',
             'News',
+        ],
+        footerLink:[
+            'Home',
+            'Who We Are',
+            'What We Do',
+            'Where We Work',
+            'Careers',
+            'News',
+            'Get In Touch Now',
+        ],
+
+        copy:[
+            'Copyright 2012 - 2020 |',
+            'Avada Theme by ThemeFusion |',
+            'All Right Reserved |',
+            'Powered by WordPress',
+        ],
+        footerSocial:[
+            {
+                icon:'fab fa-facebook-f'
+            },
+            {
+                icon:'fab fa-instagram'
+            },
+            {
+                icon:'fab fa-twitter'
+            },
+            {
+                icon:'fab fa-youtube'
+            },
         ],
         mainMiniBox:[
             {

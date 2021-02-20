@@ -189,21 +189,39 @@
                     <div class="main-box-text">
                         <div class="text">
                             <h1>Start Your Free Consultation</h1>
-                            
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae nobis placeat voluptates animi amet neque ea tenetur</p>
                             <button>CONTACET US NOW</button>
 
                         </div>
                     </div>
             </div>
-
-
-
-
-
-
-
         </main>
+        <footer>
+            <div class="footer-container">
+                <div class="footer-container-center">
+                    <div class="footer-logo">
+                        <img :src="'./images/'+iconLogoFooter+'.png'" alt="">
+                    </div>
+                    <div class="footer-nav">
+                        <ul>
+                            <li v-for='element in footerLink'><p>{{element}}</p></li>
+                        </ul>
+                    </div>
+                    <div class="footer-copy">
+                        <ul>
+                            <li v-for='element in copy'><p>{{element}}</p></li>
+                        </ul>
+                    </div>
+                    <div class="footer-social">
+                        <ul>
+                            <li v-for='element in footerSocial'>
+                                <i :class="element.icon"></i>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
 
 
 

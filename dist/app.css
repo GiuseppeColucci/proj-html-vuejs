@@ -339,7 +339,7 @@
 }
 
 .main-box-center-6 {
-  height: 700px;
+  padding: 50px;
 }
 .main-box-center-6 .main-box-center {
   width: 1200px;
@@ -371,7 +371,6 @@
 .main-box-center-6 .main-box-center .container-slider .box-img-s {
   height: 150px;
   width: 150px;
-  background-color: yellow;
   margin: auto;
 }
 .main-box-center-6 .main-box-center .container-slider .box-img-s img {
@@ -410,4 +409,15 @@
   border-radius: 10px;
   padding: 5px 10px;
   cursor: pointer;
+}
+
+.footer-container {
+  height: 700px;
+  background-color: orange;
+}
+.footer-container .footer-container-center {
+  height: 500px;
+  background-color: orchid;
+  width: 1200px;
+  margin: auto;
 }
