@@ -393,11 +393,68 @@
 }
 //footer
 .footer-container{
-    height: 700px;
-    background-color: orange;
+   color: gray;
     .footer-container-center{
-        height: 500px;
-        background-color: orchid;
+       
         @include container-center;
+        .footer-logo{
+            display: flex;
+            justify-content: center;
+            margin: 50px;
+
+             ul{
+                display: flex;
+                list-style: none;
+                li{
+                    margin: 0 15px;
+                    cursor: pointer;
+                }
+            }
+        }
+        .footer-nav{
+            display: flex;
+            justify-content: center;
+            margin: 50px;
+             ul{
+                display: flex;
+                list-style: none;
+                li{
+                    margin: 0 15px;
+                    cursor: pointer;
+                }
+                li:hover{
+                    color: $HoverOrange;
+
+                }
+            }
+        }
+        .footer-copy{
+            display: flex;
+            justify-content: center;
+            margin: 50px;
+
+            ul{
+                display: flex;
+                list-style: none;
+                li{
+                    margin: 0 5px;
+                    cursor: pointer;
+                }
+            }
+        }
+        .footer-social{
+            display: flex;
+            justify-content: center;
+            margin: 50px;
+
+             ul{
+                display: flex;
+                list-style: none;
+                li{
+                    margin: 0 5px;
+                    cursor: pointer;
+                }
+            }
+        }
     }
 }
