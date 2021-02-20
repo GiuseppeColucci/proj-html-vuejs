@@ -94,6 +94,23 @@ new Vue({
                 storege:'Unlimited Storage',
                 UN:'Unlimited User'
             },
+        ],
+        cardsOurNews:[
+           { 
+            img:'related-service-2-700x441',
+            title:'Why You Need A SEO Agency Now',
+            text:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam odit, dolores vitae impedit nostrum illo cumque, adipisci veniam ut vero voluptas'
+            },
+            { 
+             img:'related-service-4-700x441',
+             title:'SEO Tips For Your Startup',
+             text:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam odit, dolores vitae impedit nostrum illo cumque, adipisci veniam ut vero voluptas'
+            },
+            { 
+             img:'blog-post-6-700x441',
+             title:'Image Optimization For Your Site',
+             text:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam odit, dolores vitae impedit nostrum illo cumque, adipisci veniam ut vero voluptas'    
+             },
         ]
     },
 })//fine vue

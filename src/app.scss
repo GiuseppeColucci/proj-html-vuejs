@@ -273,3 +273,51 @@
         }
     }
 }
+.main-box-center-5{
+    background-color: $Back-G-main-Color;
+
+    .main-box-center{
+        @include container-center;
+        // padding-bottom: 40px;
+        .main-box-text{
+            display: flex;
+            justify-content: center;
+            .text{
+                text-align: center;
+                width: 41%;
+                padding: 50px;
+            }
+        }
+        .box-card{
+          display: flex;
+          justify-content: center;
+            .card{
+                height: 350px;
+                width: 300px;
+                margin: 0 15px;
+                text-align: center;
+            }
+            .box-img{
+                height: 170px;
+                img{
+                    height: 100%;
+                    width: 100%;
+                }
+                
+            }
+            h4{
+                color: orange;
+                margin: 15px;
+            }
+        }
+    }
+    .main-button-center{
+        display: flex;
+        justify-content: center;
+        height: 100px;
+        align-items: center;
+        button{
+            @include buttonOrange;
+        }
+    }
+}

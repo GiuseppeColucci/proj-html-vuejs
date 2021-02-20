@@ -285,3 +285,55 @@
   background-color: orange;
   color: white;
 }
+
+.main-box-center-5 {
+  background-color: #f8f8f8;
+}
+.main-box-center-5 .main-box-center {
+  width: 1200px;
+  margin: auto;
+}
+.main-box-center-5 .main-box-center .main-box-text {
+  display: flex;
+  justify-content: center;
+}
+.main-box-center-5 .main-box-center .main-box-text .text {
+  text-align: center;
+  width: 41%;
+  padding: 50px;
+}
+.main-box-center-5 .main-box-center .box-card {
+  display: flex;
+  justify-content: center;
+}
+.main-box-center-5 .main-box-center .box-card .card {
+  height: 350px;
+  width: 300px;
+  margin: 0 15px;
+  text-align: center;
+}
+.main-box-center-5 .main-box-center .box-card .box-img {
+  height: 170px;
+}
+.main-box-center-5 .main-box-center .box-card .box-img img {
+  height: 100%;
+  width: 100%;
+}
+.main-box-center-5 .main-box-center .box-card h4 {
+  color: orange;
+  margin: 15px;
+}
+.main-box-center-5 .main-button-center {
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  align-items: center;
+}
+.main-box-center-5 .main-button-center button {
+  background-color: #ffa837;
+  border: 0;
+  color: white;
+  border-radius: 10px;
+  padding: 5px 10px;
+  cursor: pointer;
+}

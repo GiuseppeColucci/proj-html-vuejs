@@ -142,17 +142,31 @@
                             <p>{{cdr.UN}}</p>
                             <button>START TODAY</button>
                         </div>
-                        <!-- <div class="box-card-2">
-
-                        </div>
-                        <div class="box-card-2">
-
-                        </div>
-                        <div class="box-card-2">
-
-                        </div> -->
                     </div>
                 </div>
+            </div>
+            <div class="main-box-center-5">
+                <div class="main-box-center">
+                    <div class="main-box-text">
+                        <div class="text">
+                            <h1>Our News</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae nobis placeat voluptates animi amet neque ea tenetur</p>
+                        </div>
+                    </div>
+                    <div class="box-card">
+                        <div v-for='element in cardsOurNews'class="card">
+                            <div class="box-img">
+                                <img :src="'./images/'+element.img+'.jpg'" alt="">
+                            </div>
+                            <h4>{{element.title}}</h4>
+                            <p>{{element.text}}</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-button-center">
+
+                    <button>GO TO NEWS</button>
+                </div>  
             </div>
         </main>
 
