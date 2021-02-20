@@ -267,6 +267,7 @@
 }
 .main-box-center-4 .main-box-center .box-card-main .box-card-2 .paje-1 .paje-2 p:first-child {
   color: #5926c0;
+  display: flex;
 }
 .main-box-center-4 .main-box-center .box-card-main .box-card-2 .paje-1 .paje-2 p {
   margin: 0 0;
