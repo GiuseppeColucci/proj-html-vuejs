@@ -278,7 +278,6 @@
 
     .main-box-center{
         @include container-center;
-        // padding-bottom: 40px;
         .main-box-text{
             display: flex;
             justify-content: center;
@@ -302,8 +301,7 @@
                 img{
                     height: 100%;
                     width: 100%;
-                }
-                
+                }              
             }
             h4{
                 color: orange;
@@ -318,6 +316,48 @@
         align-items: center;
         button{
             @include buttonOrange;
+        }
+    }
+}
+.main-box-center-6{
+    height: 700px;  
+    .main-box-center{
+        @include container-center;
+        .main-box-text{
+            display: flex;
+            justify-content: center;
+            border-bottom: 1px solid gray;
+            .text{
+                text-align: center;
+                width: 41%;
+                padding: 50px;
+            }
+            h1{
+
+            }
+            img{
+                border-radius: 50%;
+                margin: 35px;
+            }
+            p{
+                margin: 15px;
+            }
+        }
+        .container-slider{
+            margin: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .box-img-s{
+                height: 150px;
+                width: 150px;
+                background-color: yellow;
+                margin: auto;
+                img{
+                    height: 100%;
+                    width: 100%;
+                }
+            }
         }
     }
 }

@@ -164,11 +164,36 @@
                     </div>
                 </div>
                 <div class="main-button-center">
-
                     <button>GO TO NEWS</button>
                 </div>  
             </div>
+            <div class="main-box-center-6">
+                <div class="main-box-center">
+                    <div class="main-box-text">
+                        <div class="text">
+                            <h1>What Our Client Say</h1>
+                            <img :src="'images/'+imgTestimonial+'.jpg'" alt="">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae nobis placeat voluptates animi amet neque ea tenetur</p>
+                            <p>Luis Desalvo CRO TECH</p>
+                        </div>
+                    </div>
+                    <div class="container-slider">
+                        <div v-for='element in mainTestimonialSlider'class="box-img-s">
+                            <img :src="'./images/'+element.imgTestimonial+'.png'" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
         </main>
+
+
 
 <!-- fine del contenitore di vue -->
     </div>

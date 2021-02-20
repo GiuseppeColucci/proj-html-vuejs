@@ -4,6 +4,7 @@ new Vue({
     el:'#app',
     data:{
         iconLogoNav:'logo_seo_w_1x',
+        imgTestimonial:'testimonials-2',
         linkNav:[
             'Home',
             'Who We Are',
@@ -111,6 +112,20 @@ new Vue({
              title:'Image Optimization For Your Site',
              text:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam odit, dolores vitae impedit nostrum illo cumque, adipisci veniam ut vero voluptas'    
              },
+        ],
+        mainTestimonialSlider:[
+            {
+                imgTestimonial:'clients_partner_5-200x202'
+            },
+            {
+                imgTestimonial:'clients_partner_6-200x202'
+            },
+            {
+                imgTestimonial:'clients_partner_1-200x202'
+            },
+            {
+                imgTestimonial:'clients_partner_2-200x202'
+            },
         ]
     },
 })//fine vue
