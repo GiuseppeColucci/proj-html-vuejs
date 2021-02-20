@@ -58,7 +58,8 @@
                     <div class="main-box-two">
                         <div v-for="element in mainMiniBox"class="main-mini-box">
                             <div>
-                                <i class="fas fa-road"></i>
+                                <i :class="element.icon"></i>
+
                                 <h1>{{element.title}}</h1>
                                 <p>{{element.text}}</p>
                             </div>
@@ -83,7 +84,7 @@
                 </div>
                 <div class="main-box-center-2">
                     <div v-for='cards in mainBoxCar2'class="main-card">
-                        <i class="fas fa-road"></i>
+                        <i :class="cards.icon"></i>
                         <h1>{{cards.title}}</h1>
                         <p>{{cards.text}}</p>
                         <a href="">Read More > </a>
@@ -106,22 +107,50 @@
                         </div>
                         <div class="slide-main-two">
                             <div v-for='img in sliderTwo'class="slide-box">
-                                <img :src="'./images/'+img.images+'.jpg'" alt="">
-
-                              
+                                <img :src="'./images/'+img.images+'.jpg'" alt="">  
                             </div>
-                            <!-- <div class="slide-box">
-                                <img src="./images/case-study-gallery-5-1-600x450.jpg" alt="">
-
-                                
-                            </div>
-                            <div class="slide-box">
-                                <img src="./images/case-study-gallery-6-1-600x450.jpg" alt="">
-
-                            
-                            </div> -->
                         </div>
 
+                    </div>
+                </div>
+                <div class="main-button-center">
+
+                    <button>VIEW OUR WORK</button>
+                </div>
+            </div>
+            <div class="main-box-center-4">
+                <div class="main-box-center">
+                    <div class="main-box-text">
+                        <div class="text">
+                            <h1>Our Plans</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae nobis placeat voluptates animi amet neque ea tenetur</p>
+                        </div>
+                    </div>
+                    <div class="box-card-main">
+                        <div v-for='cdr in cardsOurPlans'class="box-card-2">
+                            <h3>{{cdr.title}}</h3>
+                            <span class="paje-1">$
+                                <!-- <p>19</p> -->
+                                <h2>{{cdr.price}}</h2>
+                               <span class="paje-2">
+                                <p>99</p>
+                                <p>monthly</p>
+                               </span>
+                            </span>
+                            <p>{{cdr.proj}}</p>
+                            <p>{{cdr.storage}}</p>
+                            <p>{{cdr.UN}}</p>
+                            <button>START TODAY</button>
+                        </div>
+                        <!-- <div class="box-card-2">
+
+                        </div>
+                        <div class="box-card-2">
+
+                        </div>
+                        <div class="box-card-2">
+
+                        </div> -->
                     </div>
                 </div>
             </div>

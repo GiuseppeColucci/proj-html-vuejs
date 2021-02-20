@@ -165,7 +165,7 @@
 .main-box-center-3{
     .main-box-center{
         @include container-center;
-        padding-bottom: 100px;
+        padding-bottom: 40px;
         .main-box-text{
             display: flex;
             justify-content: center;
@@ -182,8 +182,6 @@
                 .slide-box{
                     height: 400px;
                     width: 400px;   
-                    background-color: olivedrab;
-                    border: 1px solid black;
                     margin: 5px 5px;
                     img{
                         height: 100%;
@@ -197,13 +195,79 @@
                 .slide-box{
                     height: 400px;
                     width: 400px;
-                    background-color: olivedrab;
-                    border: 1px solid black;
                     margin: 5px 5px;
                     img{
                         height: 100%;
                         width: 100%;
                     }
+                }
+            }
+        }
+    }
+    .main-button-center{
+        display: flex;
+        justify-content: center;
+        height: 100px;
+        align-items: center;
+        button{
+            @include buttonOrange;
+        }
+    }
+}
+.main-box-center-4{
+    background-image: url($elementMainBKG2);
+    background-size: cover;
+    .main-box-center{
+        @include container-center;
+        .main-box-text{
+            display: flex;
+            justify-content: center;
+            .text{
+                text-align: center;
+                width: 41%;
+                padding: 50px;
+                color: white;
+            }
+        }
+        .box-card-main{
+            padding: 50px;
+            display: flex;
+            justify-content: center;
+            .box-card-2{
+                width: 220px;
+                background-color: white;
+                margin: 0 10px;
+                text-align: center;
+                padding: 30px;
+                h3,h2,p{
+                    margin: 15px;
+                }
+                .paje-1{
+                    display: flex;
+                    justify-content: center;
+                    h2{
+                        margin: 0 0;
+                        color: #5926c0;
+                        font-size: 40px;
+                    }
+                    .paje-2{
+                        margin: 0 0;
+                        p:first-child{
+                            color: #5926c0;
+
+                        }
+                        p{
+                            margin: 0 0;
+                            color: #5a5759;
+                        }
+                    }
+                }
+                button{
+                    @include bottonWhite ;
+                }
+                button:hover{
+                    background-color: orange;
+                    color: white;
                 }
             }
         }

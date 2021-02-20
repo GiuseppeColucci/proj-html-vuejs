@@ -32,22 +32,22 @@ new Vue({
         ],
         mainBoxCar2:[
             {
-                icon:'fas fa-road',
+                icon:'fab fa-google',
                 title:'Google SEO',
                 text:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque porro voluptatibus non! Quisquam quas libero doloribus laudantium vitae iure? Labore consequatur animi dolorum excepturi corrupti ratione hic quasi, aut quo.',
             },
             {
-                icon:'fas fa-video',
+                icon:'fas fa-cog',
                 title:'Brand Strategy',
                 text:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque porro voluptatibus non! Quisquam quas libero doloribus laudantium vitae iure? Labore consequatur animi dolorum excepturi corrupti ratione hic quasi, aut quo.',
             },
             {
-                icon:'fas fa-tint',
+                icon:'fas fa-building',
                 title:'Local SEO',
                 text:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque porro voluptatibus non! Quisquam quas libero doloribus laudantium vitae iure? Labore consequatur animi dolorum excepturi corrupti ratione hic quasi, aut quo.',
             },
             {
-                icon:'fas fa-video',
+                icon:'far fa-chart-bar',
                 title:'SEO Analysis',
                 text:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque porro voluptatibus non! Quisquam quas libero doloribus laudantium vitae iure? Labore consequatur animi dolorum excepturi corrupti ratione hic quasi, aut quo.',
             },
@@ -64,6 +64,36 @@ new Vue({
             {images:'case-study-gallery-6-1-600x450'},
 
 
+        ],
+        cardsOurPlans:[
+            {
+                title:'Standard',
+                price:'19',
+                proj:'5 Project',
+                storege:'5 GB Storage',
+                UN:'Unlimited User'
+            },
+            {
+                title:'Premiun',
+                price:'29',
+                proj:'10 Project',
+                storege:'15 GB Storage',
+                UN:'Unlimited User'
+            },
+            {
+                title:'Professional',
+                price:'39',
+                proj:'15 Project',
+                storege:'15 GB Storage',
+                UN:'Unlimited User'
+            },
+            {
+                title:'Extreme',
+                price:'59',
+                proj:'Unlimited  Project',
+                storege:'Unlimited Storage',
+                UN:'Unlimited User'
+            },
         ]
     },
 })//fine vue

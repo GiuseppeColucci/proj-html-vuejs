@@ -168,7 +168,7 @@
 .main-box-center-3 .main-box-center {
   width: 1200px;
   margin: auto;
-  padding-bottom: 100px;
+  padding-bottom: 40px;
 }
 .main-box-center-3 .main-box-center .main-box-text {
   display: flex;
@@ -186,8 +186,6 @@
 .main-box-center-3 .main-box-center .main-box-slide-img .slide-main-one .slide-box {
   height: 400px;
   width: 400px;
-  background-color: olivedrab;
-  border: 1px solid black;
   margin: 5px 5px;
 }
 .main-box-center-3 .main-box-center .main-box-slide-img .slide-main-one .slide-box img {
@@ -201,11 +199,88 @@
 .main-box-center-3 .main-box-center .main-box-slide-img .slide-main-two .slide-box {
   height: 400px;
   width: 400px;
-  background-color: olivedrab;
-  border: 1px solid black;
   margin: 5px 5px;
 }
 .main-box-center-3 .main-box-center .main-box-slide-img .slide-main-two .slide-box img {
   height: 100%;
   width: 100%;
+}
+.main-box-center-3 .main-button-center {
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  align-items: center;
+}
+.main-box-center-3 .main-button-center button {
+  background-color: #ffa837;
+  border: 0;
+  color: white;
+  border-radius: 10px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.main-box-center-4 {
+  background-image: url("../images/background1.jpg");
+  background-size: cover;
+}
+.main-box-center-4 .main-box-center {
+  width: 1200px;
+  margin: auto;
+}
+.main-box-center-4 .main-box-center .main-box-text {
+  display: flex;
+  justify-content: center;
+}
+.main-box-center-4 .main-box-center .main-box-text .text {
+  text-align: center;
+  width: 41%;
+  padding: 50px;
+  color: white;
+}
+.main-box-center-4 .main-box-center .box-card-main {
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+}
+.main-box-center-4 .main-box-center .box-card-main .box-card-2 {
+  width: 220px;
+  background-color: white;
+  margin: 0 10px;
+  text-align: center;
+  padding: 30px;
+}
+.main-box-center-4 .main-box-center .box-card-main .box-card-2 h3, .main-box-center-4 .main-box-center .box-card-main .box-card-2 h2, .main-box-center-4 .main-box-center .box-card-main .box-card-2 p {
+  margin: 15px;
+}
+.main-box-center-4 .main-box-center .box-card-main .box-card-2 .paje-1 {
+  display: flex;
+  justify-content: center;
+}
+.main-box-center-4 .main-box-center .box-card-main .box-card-2 .paje-1 h2 {
+  margin: 0 0;
+  color: #5926c0;
+  font-size: 40px;
+}
+.main-box-center-4 .main-box-center .box-card-main .box-card-2 .paje-1 .paje-2 {
+  margin: 0 0;
+}
+.main-box-center-4 .main-box-center .box-card-main .box-card-2 .paje-1 .paje-2 p:first-child {
+  color: #5926c0;
+}
+.main-box-center-4 .main-box-center .box-card-main .box-card-2 .paje-1 .paje-2 p {
+  margin: 0 0;
+  color: #5a5759;
+}
+.main-box-center-4 .main-box-center .box-card-main .box-card-2 button {
+  height: 30px;
+  border-radius: 15px;
+  width: 130px;
+  background-color: white;
+  border: 1px solid;
+  cursor: pointer;
+}
+.main-box-center-4 .main-box-center .box-card-main .box-card-2 button:hover {
+  background-color: orange;
+  color: white;
 }
