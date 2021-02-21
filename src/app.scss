@@ -58,7 +58,6 @@
                 .one{
                     @include buttonOrange;
                     margin-right: 15px;
-
                 }
                 .two{
                     @include buttonPurpol;
@@ -106,16 +105,12 @@
                 p{
 
                 }
-            }
-        
+            }       
         }
         .main-box-three{
             height: 500px;
-            background-image: url($backGraund-Main-box);
-            
-          
-        }
-       
+            background-image: url($backGraund-Main-box);          
+        }      
     }
 }
 .container-main-box-two{
@@ -126,7 +121,7 @@
         @include container-center;
         @include flexj-Center;
         .box-text-center-main-two{
-            color: white;
+            color: $ColorTextW;
             width: 53%;
             text-align: center;
             padding: 60px;           
@@ -144,7 +139,7 @@
             padding: 15px;
             margin-bottom: 150px;
             h1,p{
-                color: white;
+                color: $ColorTextW;
                 margin-bottom: 25px;
             }
             i,a{
@@ -212,7 +207,7 @@
                 text-align: center;
                 width: 41%;
                 padding: 50px;
-                color: white;
+                color: $ColorTextW;
             }
         }
         .box-card-main{
@@ -251,7 +246,7 @@
                 }
                 button:hover{
                     background-color: orange;
-                    color: white;
+                    color: $ColorTextW;
                 }
             }
         }
@@ -259,7 +254,6 @@
 }
 .main-box-center-5{
     background-color: $Back-G-main-Color;
-
     .main-box-center{
         @include container-center;
         .main-box-text{
@@ -343,19 +337,15 @@
     height: 500px;
     background-image: url($bkgimg);
     background-size: cover;
-    opacity: 0,5;
-
     .main-box-center{
         @include container-center;
         .main-box-text{
-            display: flex;
-            justify-content: center;
-           
+            @include flexj-Center;       
             .text{
                 text-align: center;
                 width: 42%;
                 padding: 50px;
-                color: white;
+                color: $ColorTextW;
             }
             h1{
     
@@ -372,8 +362,7 @@
 //footer
 .footer-container{
    color: gray;
-    .footer-container-center{
-       
+    .footer-container-center{       
         @include container-center;
         .footer-logo,.footer-nav,.footer-copy,.footer-social{
             @include flexj-Center;
@@ -393,7 +382,6 @@
                     color: $HoverOrange;
                 }
             }
-        }
-        
+        }  
     }
 }
