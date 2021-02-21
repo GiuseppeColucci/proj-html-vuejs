@@ -418,58 +418,19 @@
   width: 1200px;
   margin: auto;
 }
-.footer-container .footer-container-center .footer-logo {
+.footer-container .footer-container-center .footer-logo, .footer-container .footer-container-center .footer-nav, .footer-container .footer-container-center .footer-copy, .footer-container .footer-container-center .footer-social {
   display: flex;
   justify-content: center;
   margin: 50px;
 }
-.footer-container .footer-container-center .footer-logo ul {
+.footer-container .footer-container-center .footer-logo ul, .footer-container .footer-container-center .footer-nav ul, .footer-container .footer-container-center .footer-copy ul, .footer-container .footer-container-center .footer-social ul {
   display: flex;
   list-style: none;
 }
-.footer-container .footer-container-center .footer-logo ul li {
-  margin: 0 15px;
-  cursor: pointer;
-}
-.footer-container .footer-container-center .footer-nav {
-  display: flex;
-  justify-content: center;
-  margin: 50px;
-}
-.footer-container .footer-container-center .footer-nav ul {
-  display: flex;
-  list-style: none;
-}
-.footer-container .footer-container-center .footer-nav ul li {
+.footer-container .footer-container-center .footer-logo ul li, .footer-container .footer-container-center .footer-nav ul li, .footer-container .footer-container-center .footer-copy ul li, .footer-container .footer-container-center .footer-social ul li {
   margin: 0 15px;
   cursor: pointer;
 }
 .footer-container .footer-container-center .footer-nav ul li:hover {
   color: #ffa837;
-}
-.footer-container .footer-container-center .footer-copy {
-  display: flex;
-  justify-content: center;
-  margin: 50px;
-}
-.footer-container .footer-container-center .footer-copy ul {
-  display: flex;
-  list-style: none;
-}
-.footer-container .footer-container-center .footer-copy ul li {
-  margin: 0 5px;
-  cursor: pointer;
-}
-.footer-container .footer-container-center .footer-social {
-  display: flex;
-  justify-content: center;
-  margin: 50px;
-}
-.footer-container .footer-container-center .footer-social ul {
-  display: flex;
-  list-style: none;
-}
-.footer-container .footer-container-center .footer-social ul li {
-  margin: 0 5px;
-  cursor: pointer;
 }

@@ -375,10 +375,9 @@
     .footer-container-center{
        
         @include container-center;
-        .footer-logo{
+        .footer-logo,.footer-nav,.footer-copy,.footer-social{
             @include flexj-Center;
             margin: 50px;
-
              ul{
                 display: flex;
                 list-style: none;
@@ -389,46 +388,12 @@
             }
         }
         .footer-nav{
-            @include flexj-Center;
-            margin: 50px;
              ul{
-                display: flex;
-                list-style: none;
-                li{
-                    margin: 0 15px;
-                    cursor: pointer;
-                }
                 li:hover{
                     color: $HoverOrange;
-
                 }
             }
         }
-        .footer-copy{
-            @include flexj-Center;
-            margin: 50px;
-
-            ul{
-                display: flex;
-                list-style: none;
-                li{
-                    margin: 0 5px;
-                    cursor: pointer;
-                }
-            }
-        }
-        .footer-social{
-            @include flexj-Center;
-            margin: 50px;
-
-             ul{
-                display: flex;
-                list-style: none;
-                li{
-                    margin: 0 5px;
-                    cursor: pointer;
-                }
-            }
-        }
+        
     }
 }

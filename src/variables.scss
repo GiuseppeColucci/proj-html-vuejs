@@ -45,17 +45,20 @@ $bkgTrasparent:'../images/transparent.png';
 @mixin flexA-Center {
     display: flex;
     align-items: center;
+    // @include flexA-Center;
     
 }
 @mixin flexj-Center {
     display: flex;
     justify-content: center;
+    // @include flexj-Center;
     
 }
 @mixin flexj-a-Center {
     display: flex;
     justify-content: center;
     align-items: center;
+    // @include flexj-a-Center;
     
 }
 
