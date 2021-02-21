@@ -42,3 +42,20 @@ $bkgTrasparent:'../images/transparent.png';
     border: 1px solid;
     cursor: pointer;
 }
+@mixin flexA-Center {
+    display: flex;
+    align-items: center;
+    
+}
+@mixin flexj-Center {
+    display: flex;
+    justify-content: center;
+    
+}
+@mixin flexj-a-Center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+

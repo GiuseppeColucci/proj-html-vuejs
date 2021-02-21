@@ -13,14 +13,11 @@
 </head>
 <body>
     <div id="app">
-        
-
             <div class="container">
                 <div class="container-margin-center">
                     <div class="container-nav">
                        <div class="container-logo">
-                           <img :src="'./images/'+iconLogoNav+'.png'" alt="">
-                           
+                           <img :src="'./images/'+iconLogoNav+'.png'" alt="">   
                        </div>
                        <div class="container-link">
                            <ul>
@@ -36,16 +33,11 @@
                             <div class="box-button">
                                 <button class="one">BUY AVADA NOW</button>
                                 <button class= "two">CONTACT US</button>
-    
                             </div>
                         </div>
-    
                     </div>
-    
-                </div>
-    
-            </div>
-        
+                </div>   
+            </div>        
         <main>
             <div class="containere-main-box-one">
                 <div class="main-box-center">
@@ -59,28 +51,22 @@
                         <div v-for="element in mainMiniBox"class="main-mini-box">
                             <div>
                                 <i :class="element.icon"></i>
-
                                 <h1>{{element.title}}</h1>
                                 <p>{{element.text}}</p>
                             </div>
-                     
                         </div>
                     </div>
                     <div class="main-box-three">
                         <!-- box image -->
                     </div>
-             
-
                 </div>
-
             </div>
             <div class="container-main-box-two">
                 <div class="main-box-center">
                     <div class="box-text-center-main-two">
                         <h1>See Our Top Notch Service</h1>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur, labore. Tempora eligendi odit illum voluptatibus vitae aperiam perferendis exercitationem voluptate architecto.</p>
-                    </div>
-                    
+                    </div>    
                 </div>
                 <div class="main-box-center-2">
                     <div v-for='cards in mainBoxCar2'class="main-card">
@@ -110,11 +96,9 @@
                                 <img :src="'./images/'+img.images+'.jpg'" alt="">  
                             </div>
                         </div>
-
                     </div>
                 </div>
                 <div class="main-button-center">
-
                     <button>VIEW OUR WORK</button>
                 </div>
             </div>
@@ -130,7 +114,6 @@
                         <div v-for='cdr in cardsOurPlans'class="box-card-2">
                             <h3>{{cdr.title}}</h3>
                             <span class="paje-1">$
-                                <!-- <p>19</p> -->
                                 <h2>{{cdr.price}}</h2>
                                <span class="paje-2">
                                 <p>99</p>
@@ -222,14 +205,8 @@
                 </div>
             </div>
         </footer>
-
-
-
 <!-- fine del contenitore di vue -->
     </div>
-    
-
-
     <script src="./js/main.js"></script>
 </body>
 </html>

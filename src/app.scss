@@ -21,8 +21,7 @@
 
            }
            .container-link{
-               display: flex;
-               align-items: center;
+               @include flexA-Center ;
                ul{
                    cursor: pointer;
                    color: $ColorTextW;
@@ -44,8 +43,7 @@
     }
     .container-header{
         height: 739px;
-        display: flex;
-        align-items: center;
+        @include flexA-Center ;
         .container-box{
             width: 35%;
             color: $ColorTextW;
@@ -74,8 +72,7 @@
     .main-box-center{
         @include container-center;
         .main-box-one{
-            display: flex;
-            justify-content: center;
+            @include flexj-Center;
             .box-text-center-main{
                 width: 43%;
                 text-align: center;
@@ -97,9 +94,7 @@
                 width: 300px;
                 background-color:$ColorTextW;
                 margin: 0 25px;
-                display: flex;
-                justify-content: center;
-                align-items: center;
+                @include flexj-a-Center ;
                 text-align: center;
                 i{
                     font-size: 20px;
@@ -129,8 +124,7 @@
     background-size: cover;
     .main-box-center{
         @include container-center;
-        display: flex;
-        justify-content: center;
+        @include flexj-Center;
         .box-text-center-main-two{
             color: white;
             width: 53%;
@@ -140,9 +134,7 @@
     }
     .main-box-center-2{
         @include container-center;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @include flexj-a-Center ;
         padding: 25px;
         .main-card{
             width: 250px;
@@ -167,8 +159,7 @@
         @include container-center;
         padding-bottom: 40px;
         .main-box-text{
-            display: flex;
-            justify-content: center;
+            @include flexj-Center;
             .text{
                 text-align: center;
                 width: 41%;
@@ -177,8 +168,7 @@
         }
         .main-box-slide-img{
             .slide-main-one{
-                display: flex;
-                justify-content: center;
+                @include flexj-Center;
                 .slide-box{
                     height: 400px;
                     width: 400px;   
@@ -190,8 +180,7 @@
                 }
             }
             .slide-main-two{
-                display: flex;
-                justify-content: center;
+                @include flexj-Center;
                 .slide-box{
                     height: 400px;
                     width: 400px;
@@ -205,10 +194,8 @@
         }
     }
     .main-button-center{
-        display: flex;
-        justify-content: center;
+        @include flexj-a-Center ;
         height: 100px;
-        align-items: center;
         button{
             @include buttonOrange;
         }
@@ -220,8 +207,7 @@
     .main-box-center{
         @include container-center;
         .main-box-text{
-            display: flex;
-            justify-content: center;
+            @include flexj-Center;
             .text{
                 text-align: center;
                 width: 41%;
@@ -231,8 +217,7 @@
         }
         .box-card-main{
             padding: 50px;
-            display: flex;
-            justify-content: center;
+            @include flexj-Center;
             .box-card-2{
                 width: 220px;
                 background-color: white;
@@ -243,8 +228,7 @@
                     margin: 15px;
                 }
                 .paje-1{
-                    display: flex;
-                    justify-content: center;
+                    @include flexj-Center;
                     h2{
                         margin: 0 0;
                         color: #5926c0;
@@ -279,8 +263,7 @@
     .main-box-center{
         @include container-center;
         .main-box-text{
-            display: flex;
-            justify-content: center;
+            @include flexj-Center;
             .text{
                 text-align: center;
                 width: 41%;
@@ -288,8 +271,7 @@
             }
         }
         .box-card{
-          display: flex;
-          justify-content: center;
+            @include flexj-Center;
             .card{
                 height: 350px;
                 width: 300px;
@@ -310,10 +292,8 @@
         }
     }
     .main-button-center{
-        display: flex;
-        justify-content: center;
+        @include flexj-a-Center ;
         height: 100px;
-        align-items: center;
         button{
             @include buttonOrange;
         }
@@ -324,8 +304,7 @@
     .main-box-center{
         @include container-center;
         .main-box-text{
-            display: flex;
-            justify-content: center;
+            @include flexj-Center;
             border-bottom: 1px solid gray;
             .text{
                 text-align: center;
@@ -345,9 +324,8 @@
         }
         .container-slider{
             margin: 30px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            @include flexj-a-Center;
+
             .box-img-s{
                 height: 150px;
                 width: 150px;
@@ -398,8 +376,7 @@
        
         @include container-center;
         .footer-logo{
-            display: flex;
-            justify-content: center;
+            @include flexj-Center;
             margin: 50px;
 
              ul{
@@ -412,8 +389,7 @@
             }
         }
         .footer-nav{
-            display: flex;
-            justify-content: center;
+            @include flexj-Center;
             margin: 50px;
              ul{
                 display: flex;
@@ -429,8 +405,7 @@
             }
         }
         .footer-copy{
-            display: flex;
-            justify-content: center;
+            @include flexj-Center;
             margin: 50px;
 
             ul{
@@ -443,8 +418,7 @@
             }
         }
         .footer-social{
-            display: flex;
-            justify-content: center;
+            @include flexj-Center;
             margin: 50px;
 
              ul{

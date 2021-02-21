@@ -208,8 +208,8 @@
 .main-box-center-3 .main-button-center {
   display: flex;
   justify-content: center;
-  height: 100px;
   align-items: center;
+  height: 100px;
 }
 .main-box-center-3 .main-button-center button {
   background-color: #ffa837;
@@ -326,8 +326,8 @@
 .main-box-center-5 .main-button-center {
   display: flex;
   justify-content: center;
-  height: 100px;
   align-items: center;
+  height: 100px;
 }
 .main-box-center-5 .main-button-center button {
   background-color: #ffa837;
