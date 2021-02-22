@@ -38,7 +38,7 @@ body {
   margin: 0 20px;
 }
 .container-margin-center .container-nav .container-link ul li p:hover {
-  color: #ffa837;
+  color: #41c457;
 }
 .container-margin-center .container-nav .container-link ul button {
   background-color: #ffa837;
@@ -117,7 +117,7 @@ body {
 }
 .containere-main-box-one .main-box-center .main-box-two .main-mini-box i {
   font-size: 20px;
-  color: #ffa837;
+  color: #41c457;
 }
 .containere-main-box-one .main-box-center .main-box-two .main-mini-box h1 {
   margin: 18px;
@@ -165,7 +165,7 @@ body {
   margin-bottom: 25px;
 }
 .container-main-box-two .main-box-center-2 .main-card i, .container-main-box-two .main-box-center-2 .main-card a {
-  color: #ffa837;
+  color: #41c457;
   margin: 37px;
 }
 
@@ -286,7 +286,7 @@ body {
   cursor: pointer;
 }
 .main-box-center-4 .main-box-center .box-card-main .box-card-2 button:hover {
-  background-color: orange;
+  background-color: #41c457;
   color: white;
 }
 
@@ -324,7 +324,7 @@ body {
   width: 100%;
 }
 .main-box-center-5 .main-box-center .box-card h4 {
-  color: orange;
+  color: #41c457;
   margin: 15px;
 }
 .main-box-center-5 .main-button-center {
@@ -435,5 +435,5 @@ body {
   cursor: pointer;
 }
 .footer-container .footer-container-center .footer-nav ul li:hover {
-  color: #ffa837;
+  color: #41c457;
 }
