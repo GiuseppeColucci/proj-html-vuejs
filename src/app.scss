@@ -5,6 +5,9 @@
 *{
    @include body-margin;
 }
+body{
+    min-width: 1700px;
+}
 .container{
     min-width: 1200px;
     background-image: url($backGraundHeader);
