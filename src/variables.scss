@@ -38,7 +38,7 @@ $bkgTrasparent:'../images/transparent.png';
 
 //button
 @mixin buttonOrange{
-    background-color: #ffa837;
+    background-color: $HoverOrange;
     border: 0;
     color: white;
     border-radius: 10px;
